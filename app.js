@@ -153,7 +153,7 @@ function minusOperation() {
 }
 
 function multiplyOperation() {
-  mutiplyEquation = calculatorDisplay.join('').split('*')
+  multiplyEquation = calculatorDisplay.join('').split('*')
    
   let firstNumber = parseFloat(multiplyEquation[0])
   let secondNumber = parseFloat(multiplyEquation[1])
